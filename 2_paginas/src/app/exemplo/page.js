@@ -3,7 +3,7 @@
 import React from 'react'
 import { useSearchParams } from 'next/navigation'
 
-const page = () => {
+const Exemplo = () => {
 const searchParams = useSearchParams();
 
 const valorParam = searchParams.get("parametro");
@@ -15,4 +15,4 @@ const valorParam = searchParams.get("parametro");
   )
 }
 
-export default page
+export default Exemplo
