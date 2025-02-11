@@ -10,6 +10,8 @@ export default function Home() {
       {/* Aula 2 - rotas dinamicas */}
       <h1>Acessar posts</h1>
       <Link href="/posts">Posts</Link>
+      {/* Aula 3 - parâmetros na URL */}
+      
     </main>
   );
 }
