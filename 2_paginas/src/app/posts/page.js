@@ -1,15 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
 
-import Link from "next/link";
-
 export default function PostsPage() {
 
   const postIds = [1, 2, 3];
 
   return (
     <div>
-      <h1>Página Inicial</h1>
+      <Link href={`/`}>Página inicial</Link>
       <ul>
         {postIds.map((id) => (
           <li key={id}>
