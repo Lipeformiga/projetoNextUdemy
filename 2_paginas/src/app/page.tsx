@@ -11,7 +11,8 @@ export default function Home() {
       <h1>Acessar posts</h1>
       <Link href="/posts">Posts</Link>
       {/* Aula 3 - parâmetros na URL */}
-      
+      <h1>Acesso a pagina com parametros</h1>
+      <Link href={"/exemplo?parametro/teste"}>Página com parâmetros</Link>
     </main>
   );
 }
